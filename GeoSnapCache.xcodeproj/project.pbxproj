@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ADBD105222922C9CEFEAF79 /* Pods_GeoSnapCacheUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107585FC85E2BC5335B7A8E /* Pods_GeoSnapCacheUITests.framework */; };
+		9FFDAE35A3659D19F2190C49 /* Pods_GeoSnapCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB60E8058E4C2FD650A04CB /* Pods_GeoSnapCache.framework */; };
+		D3E54E81E08220EA2E999A56 /* Pods_GeoSnapCacheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703E8891458A0DF5F5FC8FC /* Pods_GeoSnapCacheTests.framework */; };
 		F54251841CF360FD0092C603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54251831CF360FD0092C603 /* AppDelegate.swift */; };
 		F54251861CF360FD0092C603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54251851CF360FD0092C603 /* ViewController.swift */; };
 		F54251891CF360FD0092C603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54251871CF360FD0092C603 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		F542518E1CF360FD0092C603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F542518C1CF360FD0092C603 /* LaunchScreen.storyboard */; };
 		F54251991CF360FD0092C603 /* GeoSnapCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54251981CF360FD0092C603 /* GeoSnapCacheTests.swift */; };
 		F54251A41CF360FD0092C603 /* GeoSnapCacheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54251A31CF360FD0092C603 /* GeoSnapCacheUITests.swift */; };
+		F54251B21CF361290092C603 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F54251B11CF361290092C603 /* GoogleService-Info.plist */; };
+		F54251B41CF36C070092C603 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54251B31CF36C070092C603 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BB60E8058E4C2FD650A04CB /* Pods_GeoSnapCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoSnapCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2107585FC85E2BC5335B7A8E /* Pods_GeoSnapCacheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoSnapCacheUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5F631B466AAB7E41A18C2E /* Pods-GeoSnapCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSnapCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSnapCache/Pods-GeoSnapCache.release.xcconfig"; sourceTree = "<group>"; };
+		53E09C7763A60FAD21ECBEBF /* Pods-GeoSnapCacheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSnapCacheUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSnapCacheUITests/Pods-GeoSnapCacheUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5703E8891458A0DF5F5FC8FC /* Pods_GeoSnapCacheTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoSnapCacheTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6C3F0226A5972FFC7FCC4F /* Pods-GeoSnapCacheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSnapCacheUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSnapCacheUITests/Pods-GeoSnapCacheUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		990C5CCE745FC71DDFA42E2A /* Pods-GeoSnapCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSnapCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSnapCache/Pods-GeoSnapCache.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC664495B4CDD1A9CBEDD79 /* Pods-GeoSnapCacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSnapCacheTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSnapCacheTests/Pods-GeoSnapCacheTests.release.xcconfig"; sourceTree = "<group>"; };
 		F54251801CF360FD0092C603 /* GeoSnapCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoSnapCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54251831CF360FD0092C603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54251851CF360FD0092C603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		F542519F1CF360FD0092C603 /* GeoSnapCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoSnapCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54251A31CF360FD0092C603 /* GeoSnapCacheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoSnapCacheUITests.swift; sourceTree = "<group>"; };
 		F54251A51CF360FD0092C603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54251B11CF361290092C603 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F54251B31CF36C070092C603 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC939D7BB4D339035BC14BD2 /* Pods-GeoSnapCacheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSnapCacheTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSnapCacheTests/Pods-GeoSnapCacheTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFDAE35A3659D19F2190C49 /* Pods_GeoSnapCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E54E81E08220EA2E999A56 /* Pods_GeoSnapCacheTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADBD105222922C9CEFEAF79 /* Pods_GeoSnapCacheUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192ED5B4E873D1F7B3BE3B99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990C5CCE745FC71DDFA42E2A /* Pods-GeoSnapCache.debug.xcconfig */,
+				2F5F631B466AAB7E41A18C2E /* Pods-GeoSnapCache.release.xcconfig */,
+				FC939D7BB4D339035BC14BD2 /* Pods-GeoSnapCacheTests.debug.xcconfig */,
+				DFC664495B4CDD1A9CBEDD79 /* Pods-GeoSnapCacheTests.release.xcconfig */,
+				8F6C3F0226A5972FFC7FCC4F /* Pods-GeoSnapCacheUITests.debug.xcconfig */,
+				53E09C7763A60FAD21ECBEBF /* Pods-GeoSnapCacheUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6B5B2FDF2D1BC8A570A2F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BB60E8058E4C2FD650A04CB /* Pods_GeoSnapCache.framework */,
+				5703E8891458A0DF5F5FC8FC /* Pods_GeoSnapCacheTests.framework */,
+				2107585FC85E2BC5335B7A8E /* Pods_GeoSnapCacheUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F54251771CF360FD0092C603 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				F54251971CF360FD0092C603 /* GeoSnapCacheTests */,
 				F54251A21CF360FD0092C603 /* GeoSnapCacheUITests */,
 				F54251811CF360FD0092C603 /* Products */,
+				192ED5B4E873D1F7B3BE3B99 /* Pods */,
+				C6B5B2FDF2D1BC8A570A2F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				F54251831CF360FD0092C603 /* AppDelegate.swift */,
+				F54251B31CF36C070092C603 /* LoginViewController.swift */,
 				F54251851CF360FD0092C603 /* ViewController.swift */,
 				F54251871CF360FD0092C603 /* Main.storyboard */,
 				F542518A1CF360FD0092C603 /* Assets.xcassets */,
 				F542518C1CF360FD0092C603 /* LaunchScreen.storyboard */,
 				F542518F1CF360FD0092C603 /* Info.plist */,
+				F54251B11CF361290092C603 /* GoogleService-Info.plist */,
 			);
 			path = GeoSnapCache;
 			sourceTree = "<group>";
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54251A81CF360FD0092C603 /* Build configuration list for PBXNativeTarget "GeoSnapCache" */;
 			buildPhases = (
+				B4AEE03D1A7A4D955B4BDB4E /* 📦 Check Pods Manifest.lock */,
 				F542517C1CF360FD0092C603 /* Sources */,
 				F542517D1CF360FD0092C603 /* Frameworks */,
 				F542517E1CF360FD0092C603 /* Resources */,
+				54FDDCC65324D7708BB7F93D /* 📦 Embed Pods Frameworks */,
+				A5876B3C35813CF75EDEB937 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54251AB1CF360FD0092C603 /* Build configuration list for PBXNativeTarget "GeoSnapCacheTests" */;
 			buildPhases = (
+				FAFA0D557C7134D9B73D754C /* 📦 Check Pods Manifest.lock */,
 				F54251901CF360FD0092C603 /* Sources */,
 				F54251911CF360FD0092C603 /* Frameworks */,
 				F54251921CF360FD0092C603 /* Resources */,
+				9535BFD1116545B1B350D7CD /* 📦 Embed Pods Frameworks */,
+				F7FDCAA0E0F8C9BD3732E27D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54251AE1CF360FD0092C603 /* Build configuration list for PBXNativeTarget "GeoSnapCacheUITests" */;
 			buildPhases = (
+				444D53AC7C89FD03AEAB298C /* 📦 Check Pods Manifest.lock */,
 				F542519B1CF360FD0092C603 /* Sources */,
 				F542519C1CF360FD0092C603 /* Frameworks */,
 				F542519D1CF360FD0092C603 /* Resources */,
+				0521AA8A6C2C747AFE5A8A5D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F542518E1CF360FD0092C603 /* LaunchScreen.storyboard in Resources */,
+				F54251B21CF361290092C603 /* GoogleService-Info.plist in Resources */,
 				F542518B1CF360FD0092C603 /* Assets.xcassets in Resources */,
 				F54251891CF360FD0092C603 /* Main.storyboard in Resources */,
 			);
@@ -251,11 +306,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0521AA8A6C2C747AFE5A8A5D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSnapCacheUITests/Pods-GeoSnapCacheUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		444D53AC7C89FD03AEAB298C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54FDDCC65324D7708BB7F93D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSnapCache/Pods-GeoSnapCache-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9535BFD1116545B1B350D7CD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSnapCacheTests/Pods-GeoSnapCacheTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5876B3C35813CF75EDEB937 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSnapCache/Pods-GeoSnapCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AEE03D1A7A4D955B4BDB4E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FDCAA0E0F8C9BD3732E27D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSnapCacheTests/Pods-GeoSnapCacheTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFA0D557C7134D9B73D754C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F542517C1CF360FD0092C603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54251B41CF36C070092C603 /* LoginViewController.swift in Sources */,
 				F54251861CF360FD0092C603 /* ViewController.swift in Sources */,
 				F54251841CF360FD0092C603 /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +578,7 @@
 		};
 		F54251A91CF360FD0092C603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990C5CCE745FC71DDFA42E2A /* Pods-GeoSnapCache.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoSnapCache/Info.plist;
@@ -410,6 +590,7 @@
 		};
 		F54251AA1CF360FD0092C603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5F631B466AAB7E41A18C2E /* Pods-GeoSnapCache.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoSnapCache/Info.plist;
@@ -421,6 +602,7 @@
 		};
 		F54251AC1CF360FD0092C603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC939D7BB4D339035BC14BD2 /* Pods-GeoSnapCacheTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GeoSnapCacheTests/Info.plist;
@@ -433,6 +615,7 @@
 		};
 		F54251AD1CF360FD0092C603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC664495B4CDD1A9CBEDD79 /* Pods-GeoSnapCacheTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GeoSnapCacheTests/Info.plist;
@@ -445,6 +628,7 @@
 		};
 		F54251AF1CF360FD0092C603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6C3F0226A5972FFC7FCC4F /* Pods-GeoSnapCacheUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GeoSnapCacheUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +640,7 @@
 		};
 		F54251B01CF360FD0092C603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E09C7763A60FAD21ECBEBF /* Pods-GeoSnapCacheUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GeoSnapCacheUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +669,7 @@
 				F54251AA1CF360FD0092C603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F54251AB1CF360FD0092C603 /* Build configuration list for PBXNativeTarget "GeoSnapCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +678,7 @@
 				F54251AD1CF360FD0092C603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F54251AE1CF360FD0092C603 /* Build configuration list for PBXNativeTarget "GeoSnapCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +687,7 @@
 				F54251B01CF360FD0092C603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
